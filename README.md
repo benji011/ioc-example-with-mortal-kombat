@@ -44,7 +44,15 @@ A simple IoC example based on the official InversifyJS library using the [offici
 # How to run
 
 ```bash
-yarn && yarn fight
+❯ yarn && yarn fight
+yarn run v1.22.10
+warning package.json: No license field
+$ ts-node -r tsconfig-paths/register src/main.ts
+FIGHT!
+                Sub-Zero (Ice Scepter)
+                vs
+                Scorpion (Kunai)
+✨  Done in 1.97s.
 ```
 
 # To do
