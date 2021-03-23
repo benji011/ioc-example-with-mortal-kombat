@@ -1,11 +1,11 @@
 import { inject, injectable, named } from 'inversify'
 
-import { Battle, Warrior } from '~/interfaces'
+import { Tournament, Warrior } from '~/interfaces'
 import { SERVICE_IDENTIFIER as SI } from '~/constants/identifiers'
-import TAG from '~/constants/tags'
+import { TAG } from '~/constants/tags'
 
 @injectable()
-export class EpicBattle implements Battle {
+export class MortalKombat implements Tournament {
   @inject(SI.WARRIOR)
   @named(TAG.CHINESE)
   public subzero: Warrior

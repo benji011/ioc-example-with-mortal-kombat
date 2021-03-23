@@ -1,5 +1,5 @@
 export const SERVICE_IDENTIFIER = {
-  BATTLE: Symbol.for('Battle'),
+  TOURNAMENT: Symbol.for('Tournament'),
   WARRIOR: Symbol.for('Warrior'),
   WEAPON: Symbol.for('Weapon'),
 }

@@ -1,5 +1,6 @@
-import { Katana } from '~/entities/weapons/Katana'
-import { Ninja } from '~/entities/warriors/Ninja'
-import { Shuriken } from '~/entities/weapons/Shuriken'
+import { ShiraiRyu } from '~/entities/warriors/ShiraiRyu'
+import { LinKuei } from '~/entities/warriors/LinKuei'
+import { Kunai } from '~/entities/weapons/Kunai'
+import { IceScepter } from '~/entities/weapons/IceScepter'
 
-export { Katana, Ninja, Shuriken }
+export { ShiraiRyu, LinKuei, Kunai, IceScepter }

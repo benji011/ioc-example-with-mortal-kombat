@@ -1,6 +1,5 @@
 import { Warrior } from '~/interfaces/warriors/Warrior'
 import { Weapon } from '~/interfaces/weapons/Weapon'
-import { ThrowableWeapon } from '~/interfaces/weapons/ThrowableWeapon'
-import Battle from '~/interfaces/battle/Battle'
+import Tournament from '~/interfaces/tournaments/Tournament'
 
-export { Battle, Warrior, Weapon, ThrowableWeapon }
+export { Tournament, Warrior, Weapon }
